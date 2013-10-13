@@ -1,0 +1,18 @@
+{
+"manifest_version": 2,
+
+	  "name": "Bookmark Auto",
+	    "description": "This extension automates opening of bookmarks and files.",
+		  "version": "1.0",
+
+		    "permissions": [
+			    "tabs",
+				"bookmarks",
+				"history",
+				"geolocation"
+				  ],
+				"background" : {
+					"scripts": ["startup.js"],
+					"Persistent": true
+				}
+}
