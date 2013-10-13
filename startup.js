@@ -33,7 +33,7 @@ function opentab($setting)
 	  	});
 	}
 	if($setting == 3) {
-		var newUrl = "www.reddit.com/r/rutgers";
+		var newUrl = "http://reddit.com/r/rutgers";
 		var newUrl2 = "https://www.xkcd.com";
 		var newUrl3 = "https://www.github.com/davidfu92";
 		chrome.tabs.query({'active': true}, function(tabs) {

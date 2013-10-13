@@ -1,0 +1,4 @@
+$.get("http://162.243.41.64/HackRUF2013/database.php?location=hi").done(function(data) `{
+	    //alert("Data: " + data + "\nStatus: " + status);
+		navigator.geolocation.getCurrentPosition(lookUPPosition);
+});
